@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.pulkitpahwa.fooodies" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LocationFinder"
+            android:label="@string/title_activity_location_finder" >
+        </activity>
+        <activity
+            android:name=".AboutTeam"
+            android:label="@string/title_activity_about_team" >
+        </activity>
+        <activity
+            android:name=".RestaurantHome"
+            android:label="@string/title_activity_restaurant_home" >
+        </activity>
+        <activity
+            android:name=".Courses"
+            android:label="@string/title_activity_courses" >
+        </activity>
+        <activity
+            android:name=".Items"
+            android:label="@string/title_activity_items" >
+        </activity>
+        <activity
+            android:name=".Bill"
+            android:label="@string/title_activity_bill" >
+        </activity>
+        <activity
+            android:name=".CartCheck"
+            android:label="@string/title_activity_cart_check" >
+        </activity>
+        <activity
+            android:name=".RestaurantCourses"
+            android:label="@string/title_activity_courses" >
+        </activity>
+        <activity
+            android:name=".RestaurantItems"
+            android:label="@string/title_activity_items" >
+        </activity>
+        <activity
+            android:name=".RestaurantBill"
+            android:label="@string/title_restaurant_activity_bill" >
+        </activity>
+        <activity
+            android:name=".RestaurantCartCheck"
+            android:label="@string/title_restaurant_activity_cart_check" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".FirstPage"
+            android:label="@string/title_activity_first_page" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChooseOption"
+            android:label="@string/title_activity_choose_option" >
+        </activity>
+        <activity
+            android:name=".RestaurantForm"
+            android:label="@string/title_activity_restaurant_form" >
+        </activity>
+        <activity
+            android:name=".xyz"
+            android:label="@string/title_activity_xyz" >
+        </activity>
+        <activity
+            android:name=".mno"
+            android:label="@string/title_activity_mno" >
+        </activity>
+        <activity
+            android:name=".Secondpage"
+            android:label="@string/title_activity_secondpage" >
+        </activity>
+        <activity
+            android:name=".UserProfile"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
+            android:name=".PlaceHomeDelivery"
+            android:label="@string/title_activity_place_home_delivery" >
+        </activity>
+    </application>
+
+</manifest>

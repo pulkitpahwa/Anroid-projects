@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="in.pulkitpahwa.fooodies.LocationFinder"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView123"
+        android:src="@drawable/worls"
+        android:layout_below="@+id/locationspinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView android:text="Select State"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/select_state"
+        android:textColor="#000" />
+
+    <Spinner
+        android:id="@+id/statespinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/select_location"
+        android:layout_toEndOf="@+id/select_location"
+        android:layout_marginLeft="10dp"></Spinner>
+
+    <TextView android:text="Select City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_city"
+        android:layout_below="@+id/statespinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"
+        android:layout_marginTop="50dp" />
+
+    <Spinner
+        android:id="@+id/cityspinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/select_city"
+        android:layout_alignLeft="@+id/statespinner"
+        android:layout_alignStart="@+id/statespinner"
+        android:layout_alignRight="@+id/statespinner"
+        android:layout_alignEnd="@+id/statespinner"></Spinner>
+
+    <TextView android:text="Select Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_location"
+        android:layout_below="@+id/select_city"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"
+        android:layout_marginTop="50dp" />
+
+    <Spinner
+        android:id="@+id/locationspinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/select_location"
+        android:layout_alignRight="@+id/cityspinner"
+        android:layout_alignEnd="@+id/cityspinner"
+        android:layout_alignLeft="@+id/cityspinner"
+        android:layout_alignStart="@+id/cityspinner"></Spinner>
+
+</RelativeLayout>
