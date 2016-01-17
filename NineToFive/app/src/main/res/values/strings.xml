@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">9 to 5 fitness</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro">9 to 5 fitness trainer is designed to help
+        professionals to keep their body fit by taking care of their
+        neck, back, eyes and wrist. \n\nThis app is verified by eye
+        specialists and orthopaedics experts.
+    </string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_app_settings">AppSettings</string>
+    <string name="title_activity_disclaimer">Disclaimer</string>
+    <string name="disclaimer">This app is made by extensive research
+        on problems related to professionals and is verified by the experts in
+        the field of orthopaedics and eye experts.\n\nThe image content for this app is downloaded from various websites.\n\nThe app is mainly designed to help professionals suffering from back
+        and shoulder pain and also to those want to take care fo their back,
+        neck, shoulder and eyes.
+    </string>
+    <string name="title_activity_training_areas">Training Tracks</string>
+    <string name="title_activity_exercise_notifications">Notifications Settings
+    </string>
+    <string name="train_me">You will receive notifications and reminders for exercise after every
+    fixed duration.\n</string>
+</resources>

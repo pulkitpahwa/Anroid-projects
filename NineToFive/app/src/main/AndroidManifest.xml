@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.pulkitpahwa.ninetofive" >
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Exercise"
+            android:label="@string/title_activity_exercise" >
+        </activity>
+        <activity
+            android:name=".AppSettings"
+            android:label="@string/title_activity_app_settings" >
+        </activity>
+        <activity
+            android:name=".Disclaimer"
+            android:label="@string/title_activity_disclaimer" >
+        </activity>
+        <activity
+            android:name=".TrainingAreas"
+            android:label="@string/title_activity_training_areas" >
+        </activity>
+        <activity
+            android:name=".ExerciseNotifications"
+            android:label="@string/title_activity_exercise_notifications" >
+        </activity>
+
+        <service
+            android:name=".TimeChecker"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".Services.TimeCounterService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+    </application>
+
+</manifest>
